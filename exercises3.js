@@ -5,10 +5,21 @@ function dataHandling (biodata) {
       //console.log(j)
       //console.log(biodata[i][j])
       switch (j) {
-        case 0 : {console.log('Nomor Id: ' + (biodata[i][j]));break;} 
-        case 1 : {console.log('Nama: ' + (biodata[i][j]));break;}
-        case 2 : {console.log('TTL: ' + (biodata[i][j]) + ' ' + (biodata[i][j+1])); break;}
-        case 4 : {console.log('hobby: ' + (biodata[i][j]));break;}
+        case 0 : {
+          console.log('Nomor Id: ' + (biodata[i][j]));
+          break;
+        } 
+        case 1 : {
+          console.log('Nama: ' + (biodata[i][j]));
+          break;
+        }
+        case 2 : {
+          console.log('TTL: ' + (biodata[i][j]) + ' ' + (biodata[i][j+1]));
+          break;
+        }
+        case 4 : {
+          console.log('hobby: ' + (biodata[i][j]));break;
+        }
       }
       }
     }
