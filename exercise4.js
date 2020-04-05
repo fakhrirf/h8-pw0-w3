@@ -49,8 +49,8 @@ function dataHandling2 (bio){
       });
     console.log(sorting)
     console.log(tanggal.join('-'))
-    console.log(bio[1].slice(0,15))
-  
+    console.log(bio[1].slice(0,14))
+    
 }
 
 var input = ["0001", "Roman Alamsyah ", "Bandar Lampung", "21/05/1989", "Membaca"];
